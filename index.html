@@ -1,0 +1,34 @@
+﻿<!-- Made by MikaDev -->
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <!-- Server Start Command: cd c:\YTD\Server, node index.js -->
+    <link rel='stylesheet' href='style.css' />
+    <title>Youtube Downloader</title>
+</head>
+<body>
+    <h1 class='heading'>YTC!</h1>
+    <p>Convert youtube videos to mp3 or mp4.</p>
+    <input class='URL-input' placeholder='Paste youtube URL here.' />
+    <select class='opt'>
+        <!-- Audio Formats -->
+        <option value='mp3'>Mp3</option>
+        <option value="ogg">Ogg (Vorbis)</option>
+        <option value="wav">Wav</option>
+        <option value="wma">WMA (Windows Media Audio)</option>
+
+        <!-- Video Formats -->
+        <option value='mp4'>Mp4</option>
+        <option value="mov">Mov</option>
+        <option value="3gp">3gp</option>
+        <option value="wmv">WMV (Windows Media Video)</option>
+        <option value="webm">Webm</option>
+        <option value="avi">Avi</option>
+        <option value="mkv">Mkv</option>
+    </select>
+    <button class='convert-button' id='btn'>Convert</button>
+    <script src='script.js'></script>
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <div class="g-ytsubscribe" data-channelid="UC-0r8pT0yQDpKIIuWWvs4Gg" data-layout="full" data-count="default"></div>
+</body>
+</html>
